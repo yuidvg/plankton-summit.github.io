@@ -63,4 +63,11 @@
 }
 
 /// font
-@include font-face(CP Font, /assets/fonts/CP-Font);
+@mixin font-face($name: CP Font, $path: /assets/fonts/CP-Font, $weight: null, $style: null, $exts: woff) {
+	$src: /assets/fonts/CP-Font;
+
+	@font-face {
+		font-family: quote($name);
+		src: $src;
+	}
+}
