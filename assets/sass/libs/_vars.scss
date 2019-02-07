@@ -33,17 +33,25 @@
 
 // Palette.
 	$palette: (
-		bg:					#312450,
-		bg-alt:				darken(#312450, 5),
-		fg:					rgba(255,255,255,0.55),
-		fg-bold:			#ffffff,
+		bg:					#30A1C1/*#312450*/,
+		bg-alt:				darken(#30A1C1/*#312450*/, 5),
+		fg:					#DCF4F3/*rgba(255,255,255,0.55)*/,
+		fg-bold:			white/*#30A1C1*//*#ffffff*/,
 		fg-light:			rgba(255,255,255,0.35),
 		border:				rgba(255,255,255,0.15),
 		border-bg:			rgba(255,255,255,0.05),
-		accent1:			#5e42a6,
-		accent1-alt:		darken(#5e42a6, 10),
-		accent2:			#5052b5,
-		accent2-alt:		darken(#5052b5, 10),
-		accent3:			#b74e91,
-		accent3-alt:		darken(#b74e91, 10)
+
+		intro-bg:			#DCF4F3,
+		intro-border:		#3E3A39,
+		intro-fg:			#3E3A39,
+		intro-fg-light:		darken(#3E3A39, 10),
+		intro-fg-bold:		lighten(#3E3A39, 10),
+
+		accent1:			#571F7F/*#5e42a6*/,
+		accent1-alt:		darken(#571F7F/*#5AA9C5*//*#5e42a6*/, 10),
+		accent2:			#3E3A39/*#5052b5*/,
+		accent2-alt:		darken(#3E3A39/*#5052b5*/, 10),
+		accent3:			#30A188/*#b74e91*/,
+		accent3-alt:		darken(#30A188/*#b74e91*/, 10),
+		sidebar:			#FFE275
 	);

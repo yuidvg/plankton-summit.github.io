@@ -8,14 +8,34 @@
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url('images/intro.svg');
+		/*background-image: url('images/intro.svg');*/
+		background-color: #DCF4F3;
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
+		.button.primary {
+			background-color: #30A1C1;
+			color: white!important;
+		}
+		.button:not(.primary){
+			color: #232121!important;
+			border-color: _palette(intro-border) !important;
+		}
 
+		a{
+			border-bottom: dotted 1px _palette(intro-fg-light);
+			&:hover {
+				border-bottom-color: transparent;
+				color: _palette(intro-fg-bold);
+			}
+		}
+
+		img {
+			max-width: 100%;
+		}
 		p {
 			font-size: 1.25em;
-
+			color: _palette(intro-fg);
 			@include breakpoint('<=medium') {
 				br {
 					display: none;
