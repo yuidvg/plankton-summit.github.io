@@ -61,13 +61,3 @@
 	@return url("data:image/svg+xml;charset=utf8,#{$svg}");
 
 }
-
-/// font
-@mixin font-face($name: CP Font, $path: /assets/fonts/CP-Font, $weight: null, $style: null, $exts: woff) {
-	$src: /assets/fonts/CP-Font;
-
-	@font-face {
-		font-family: quote($name);
-		src: $src;
-	}
-}

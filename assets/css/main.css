@@ -1,4 +1,8 @@
 @import url(font-awesome.min.css);
+@font-face {
+  font-family: "CP Font";
+  src:  url("/assets/fonts/CP-Font.woff") format("woff");
+}
 /*
 	Hyperspace by HTML5 UP
 	html5up.net | @ajlkn
